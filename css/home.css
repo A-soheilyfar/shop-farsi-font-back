@@ -1,0 +1,66 @@
+header nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+header nav .nav-right{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header nav .nav-right a{
+    color: #444;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+
+
+header nav .nav-left{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #444;
+border-radius: 7px;
+margin: 5px;
+}
+
+header nav .nav-left a{
+    color: #444;
+    padding: 5px 10px;
+    
+}
+
+.slider{
+position: relative;
+}
+
+
+.slider .slides{
+display: none;    
+position: absolute;
+}
+
+
+
+.slider .slides .item {
+position: relative;
+display: none;
+}
+
+.slider .slides .item .active{
+    display: block;
+}
+
+.slider .slides .item img{
+width: 100%;
+}
+
+
+.slider .slide-btns{
+position: absolute;
+}
+
+.slider .slide-btns i{
+
+}

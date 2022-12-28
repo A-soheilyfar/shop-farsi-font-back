@@ -1,0 +1,29 @@
+@font-face {
+    font-family:IRANSansX ;
+    src: url(../fonts/IRANSansX-Regular.ttf);
+
+    font-family:IRANSansX-bold ;
+    src: url(../fonts/IRANSansX-Bold.ttf);
+
+     font-family:IRANSansX-light ;
+    src: url(../fonts/IRANSansX-Light.ttf);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+    font-size: 16px;
+    font-family: IRANSansX;
+    direction: rtl;
+
+
+}
+
+a{
+    text-decoration: none;
+}
